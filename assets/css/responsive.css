@@ -3327,7 +3327,7 @@
     font-size: 15px;
   }
   .single_contact_address_two_content h4 {
-    font-size: 18px;
+    font-size: 10px;
   }
   .single_choose_us_content_inner h4 {
     font-size: 18px;
@@ -3464,6 +3464,11 @@
     padding: 5px 12px 7px 07px;
   }
 
+  .home-title h5::before {
+    top: 17px;
+    left: 0;
+    background-color: inherit;
+  }
 
   .home-title p {
     font-size: 15px;
