@@ -358,14 +358,15 @@ include 'includes/header.php'; ?>
 <!--==================================================-->
 <div class="team_area pt-85 pb-80">
   <div class="container">
-    <div class="row">
+    <!-- Header Row -->
+    <div class="row align-items-center justify-content-between">
       <div class="col-lg-9">
         <div class="section_title text_left mb-60 mt-3">
           <div class="section_sub_title uppercase mb-3">
             <h6>TEAM MEMBER</h6>
           </div>
           <div class="section_main_title">
-            <h1>Our Awesome </h1>
+            <h1>Our Awesome</h1>
             <h1>Team Member</h1>
           </div>
           <div class="em_bar">
@@ -373,7 +374,7 @@ include 'includes/header.php'; ?>
           </div>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 d-flex justify-content-lg-end justify-content-center">
         <div class="section_button mt-50">
           <div class="button two">
             <a href="#">Join Our Team</a>
@@ -381,29 +382,9 @@ include 'includes/header.php'; ?>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-        <div class="team_style_three mb-40">
-          <div class="team_style_three_inner">
-            <div class="team_style_three-thumb">
-              <div class="team_style_three_thumb_inner">
-                <img src="assets/images/team1.jpg" alt="" />
-              </div>
-            </div>
-            <div class="team_style_three_content">
-              <div class="team_style_three_title">
-                <h7>
-                  <font color=white> Clint Easton </font>
-                </h7>
-              </div>
-              <div class="team_style_three_sub_title"> <br>
-                <!-- <span>DIRECTOR</span> -->
-              </div>
 
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Team Members Row - Centered -->
+    <div class="row justify-content-center">
       <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
         <div class="team_style_three mb-40">
           <div class="team_style_three_inner">
@@ -414,40 +395,16 @@ include 'includes/header.php'; ?>
             </div>
             <div class="team_style_three_content">
               <div class="team_style_three_title">
-                <h7>
-                  <font color=white>Zena Hernandez</font>
-                </h7>
+                <h7><font color="white">Zena Hernandez</font></h7>
               </div>
               <div class="team_style_three_sub_title">
-                <!--<span>CEO</span> -->
+                <!-- <span>CEO</span> -->
               </div>
-
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-        <div class="team_style_three mb-40">
-          <div class="team_style_three_inner">
-            <div class="team_style_three-thumb">
-              <div class="team_style_three_thumb_inner">
-                <img src="assets/images/team3.jpg" alt="" />
-              </div>
-            </div>
-            <div class="team_style_three_content">
-              <div class="team_style_three_title">
-                <h7>
-                  <font color=white>Catarino Hernandez</font>
-                </h7>
-              </div>
-              <div class="team_style_three_sub_title">
-                <!--<span>FOUNDER</span>-->
-              </div>
 
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
         <div class="team_style_three mb-40">
           <div class="team_style_three_inner">
@@ -458,21 +415,19 @@ include 'includes/header.php'; ?>
             </div>
             <div class="team_style_three_content">
               <div class="team_style_three_title">
-                <h7>
-                  <font color=white>Gen Gozalo </font>
-                </h7>
+                <h7><font color="white">Gen Gozalo</font></h7>
               </div>
               <div class="team_style_three_sub_title">
-                <!--<span>MANAGER</span>-->
+                <!-- <span>MANAGER</span> -->
               </div>
-
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    </div> <!-- /row -->
+  </div> <!-- /container -->
+</div> <!-- /team_area -->
+
 <!--==================================================-->
 <!----- End Lyseum Team Area ----->
 <!--==================================================-->
