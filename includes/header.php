@@ -1,26 +1,27 @@
 <?php
 // LOCAL
-$base_path = '/lyseumpartners/';
+//$base_path = '/lyseumpartners/';
 
 // PRODUCTION
-//$base_path = '/';
+$base_path = '/';
 ?>
 
 <!DOCTYPE HTML>
 <html lang="en-US">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>
-    <?= isset($page_title) ? "Lyseum Partners - $page_title" : "Lyseum Partners"; ?>
-  </title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>
+		<?= isset($page_title) ? "Lyseum Partners - $page_title" : "Lyseum Partners"; ?>
+	</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="56x56" href="<?= $base_path ?>assets/images/fav-icon/icon.png">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="56x56" href="<?= $base_path ?>assets/images/fav-icon/icon.png">
 
-  <!-- CSS Files -->
+	<!-- CSS Files -->
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="<?= $base_path ?>assets/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="<?= $base_path ?>assets/css/owl.carousel.min.css" />
@@ -38,30 +39,52 @@ $base_path = '/lyseumpartners/';
 	<link rel="stylesheet" href="<?= $base_path ?>assets/css/responsive.css" />
 
 
-  <!-- JS -->
-  <script src="<?= $base_path ?>assets/js/vendor/modernizr-3.5.0.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<!-- JS -->
+	<script src="<?= $base_path ?>assets/js/vendor/modernizr-3.5.0.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MJHXHRBN');</script>
+	<!-- End Google Tag Manager -->
 </head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-9NJFNRCQ3R"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-9NJFNRCQ3R');
+	</script>
+
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJHXHRBN"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<!-- Loder Start-->
 	<div class="loader-wrapper">
-	  <div class="loader"></div>
-	  <div class="loder-section left-section"></div>
-	  <div class="loder-section right-section"></div>
+		<div class="loader"></div>
+		<div class="loder-section left-section"></div>
+		<div class="loder-section right-section"></div>
 	</div>
 	<!-- Loder End -->
 
 	<!--==================================================-->
 	<!----- Start Lyseum Main Menu Area ----->
 	<!--==================================================-->
-		<div id="sticky-header" class="techno_nav_manu transparent_menu white d-md-none d-lg-block d-sm-none d-none">
-			<div class="container">
-				<div class="row">
-					<div class="menu">
-						<a href="index.php" class="logo"><img class="down" src="assets/images/logo.png" alt=""> <img class="main_sticky" src="assets/images/logo.png" alt=""></a>
-						<ul class="">
+	<div id="sticky-header" class="techno_nav_manu transparent_menu white d-md-none d-lg-block d-sm-none d-none">
+		<div class="container">
+			<div class="row">
+				<div class="menu">
+					<a href="index.php" class="logo"><img class="down" src="assets/images/logo.png" alt=""> <img class="main_sticky" src="assets/images/logo.png" alt=""></a>
+					<ul class="">
 						<li><a href="index.php">Home</a>
-							
+
 						</li>
 						<li><a href="index.php#about-us">About Us</a>
 							<!--<ul>
@@ -79,40 +102,40 @@ $base_path = '/lyseumpartners/';
 								<li><a href="#safety-consulting-2">Safety & Security Consulting</a></li>
 							</ul>
 						</li>
-						
+
 						<li><a href="#">Careers</a>
 							<ul>
-								
+
 							</ul>
 						</li>
 						<li><a href="#">Blog</a>
-							
+
 						</li>
 						<li><a href="#contact-section">Contact Us</a>
-							
+
 						</li>
-						
+
 						<div class="donate-btn-header">
-							<a class="dtbtn" href="#">Get A Quote</a>	
+							<a class="dtbtn" href="#">Get A Quote</a>
 						</div>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- Lyseum Mobile Menu Area -->
 	<div class="mobile-menu-area d-sm-block d-md-block d-lg-none">
-		<div class="mobile-menu"> 
+		<div class="mobile-menu">
 			<nav class="techno_menu">
 
 				<ul class="clearfix">
 
 					<li><a href="index.php">Home</a>
-						
+
 					</li>
 					<li><a href="index.php#about-us">About Us</a>
-						
+
 					</li>
 					<li><a href="#core-services">Services</a>
 						<ul>
@@ -123,13 +146,13 @@ $base_path = '/lyseumpartners/';
 							<li><a href="#safety-consulting-2">Safety & Security Consulting</a></li>
 						</ul>
 					</li>
-					
+
 					<li><a href="#">Careers</a> </li>
-						
-					<li><a href="#">Blog</a>	
+
+					<li><a href="#">Blog</a>
 					</li>
 					<li><a href="#contact-section">Contact Us</a>
-						
+
 					</li>
 				</ul>
 			</nav>
