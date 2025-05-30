@@ -30,10 +30,9 @@ include 'includes/header.php'; ?>
 							</div>
 							<div class="slider-video">
 								<div class="video-icon">
-									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/0uCY2BA4TiE"><i class="fa fa-play"></i></a>
+									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=0uCY2BA4TiE"><i class="fa fa-play"></i></a>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>

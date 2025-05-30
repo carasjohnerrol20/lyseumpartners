@@ -1,8 +1,6 @@
 <?php
 $page_title = "About Us";
 include 'includes/header.php'; ?>
-?>
-
 <!-- ============================================================== -->
 <!-- Start Lyseum Breatcome Area -->
 <!-- ============================================================== -->
@@ -277,8 +275,8 @@ include 'includes/header.php'; ?>
           <div class="tab_container">
             <ul class="accordion">
               <li>
-                <a><span>01 Core Services</span></a>
-                <p>
+                <a class="active"><span>01 Core Services</span></a>
+                <p style="display: block;">
                   - Engineering Design and Inspections<br>
                   - Engineering Compliance Support<br>
                   - Project Scheduling and Submittal Review<br>
