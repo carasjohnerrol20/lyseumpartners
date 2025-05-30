@@ -1583,7 +1583,7 @@ a.cart:after {
   position: relative;
 }
 .slider-video .video-icon {
-  position: absolute;
+  
   right: 0;
   top: -165px;
 }
@@ -15720,4 +15720,17 @@ div#particles .slider16 {
 }
 div#particles .slider18 {
   background: inherit;
+}
+.video-icon {
+  margin-top: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mobile Adjustment */
+@media (max-width: 768px) {
+  .video-icon {
+    margin-top: 3px; /* Adjust for smaller screens */
+  }
 }

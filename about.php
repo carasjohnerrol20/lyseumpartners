@@ -253,78 +253,68 @@ include 'includes/header.php'; ?>
 <!----- Start Lyseum Accordion Area ----->
 <!--==================================================-->
 <div class="accordion-area about-pages">
-  <div class="container-fluid d-flex align-items-start">
-    <div class="row">
-      <!-- Left Column -->
-      <div class="">
-        <div class="acd-items acd-arrow pt-30 pb-30 mr-4">
+  <div class="container">
+    <div class="row align-items-start">
+      
+      <!-- Left Column: Text + Accordion -->
+      <div class="col-lg-6 col-md-12 mb-4">
+        <div class="pt-3 pb-3 pe-lg-5">
           <!-- Title -->
-        <div class="section_title text_left mb-40 mt-3">
-          <div class="section_sub_title uppercase mb-3">
-
-     
+          <div class="section_title text_left mb-4">
+            <div class="section_sub_title uppercase mb-2">
               <h6>WHY CHOOSE US</h6>
             </div>
             <div class="section_main_title">
-              <h1>We offer a Comprehensive </h1>
+              <h1>We offer a Comprehensive</h1>
               <h1>Suite of Services</h1>
             </div>
-            <div class="em_bar">
+            <div class="em_bar mb-4">
               <div class="em_bar_bg"></div>
             </div>
           </div>
 
-          <!-- Accordion Start -->
-        <div class="col-lg-10">
-            <div class="tab_container" data-cue="slideInRight">
-           
-                <ul class="accordion">
-                  <li>
-                    <a><span>01 Core Services </span></a>
-                    <p>
+          <!-- Accordion -->
+          <div class="tab_container">
+            <ul class="accordion">
+              <li>
+                <a><span>01 Core Services</span></a>
+                <p>
                   - Engineering Design and Inspections<br>
                   - Engineering Compliance Support<br>
                   - Project Scheduling and Submittal Review<br>
                   - Program/Project Management<br>
-                  - Construction Management <br>
-                  - Cost Estimating and Surveys <br>
-                  - Facility Condition Assessments <br>
-                  - Safety Consulting <br>
-                  - Master Planning <br>
-                  - Logistical Support <br>
-                  - Anti-Terrorism and Force Protection (ATFP) Measures <br>
-           
-                   </p>
-                  </li>
-                  <li>
-                    <a><span>02 Lyseum’s Team </span></a>
-                    <p> 
-                    Lyseum’s team—comprising U.S. direct hires, certified professionals, and experienced Philippine-based labor—ensures agile and scalable service delivery tailored to client needs. Their experience spans defense infrastructure, utility systems, base life support, and secure facility management, all executed with a focus on safety, compliance, and quality assurance.
-              
-                    </p>
-                  </li>
-                  <li>
-                    <a><span>03 Client Focused </span></a>
-                    <p> 
-                      With a client focused and mission-first mindset alongside a performance-driven culture, Lyseum Partners deliver reliable solutions that meet the rigorous standards of government, military, and international stakeholders.
-                    </p> 
-                  </li>
-                </ul>
-             
-            </div>
+                  - Construction Management<br>
+                  - Cost Estimating and Surveys<br>
+                  - Facility Condition Assessments<br>
+                  - Safety Consulting<br>
+                  - Master Planning<br>
+                  - Logistical Support<br>
+                  - Anti-Terrorism and Force Protection (ATFP) Measures
+                </p>
+              </li>
+              <li>
+                <a><span>02 Lyseum’s Team</span></a>
+                <p>
+                  Lyseum’s team—comprising U.S. direct hires, certified professionals, and experienced Philippine-based labor—ensures agile and scalable service delivery tailored to client needs.
+                </p>
+              </li>
+              <li>
+                <a><span>03 Client Focused</span></a>
+                <p>
+                  With a client-focused and mission-first mindset alongside a performance-driven culture, Lyseum Partners deliver reliable solutions that meet the rigorous standards of government, military, and international stakeholders.
+                </p>
+              </li>
+            </ul>
           </div>
-          <!-- Accordion End -->
         </div>
       </div>
 
-      <!-- Right Column (Video) -->
-      <div class="col-lg-6 absod">
+      <!-- Right Column: Video -->
+      <div class="col-lg-6 col-md-12">
         <div class="single-panel">
           <div class="single-panel-thumb">
             <div class="single-panel-thumb-inner">
-              <img src="assets/images/video1.jpg" alt="" />
-          
-              
+              <img src="assets/images/video1.jpg" alt="Lyseum Video" class="img-fluid" />
             </div>
             <div class="main_video text_center">
               <div class="video-icon">
@@ -332,7 +322,8 @@ include 'includes/header.php'; ?>
                   class="video-vemo-icon venobox vbox-item"
                   data-vbtype="youtube"
                   data-autoplay="true"
-                  href="https://youtu.be/0uCY2BA4TiE">
+                  href="https://youtu.be/0uCY2BA4TiE"
+                >
                   <i class="fa fa-play"></i>
                 </a>
               </div>
@@ -386,7 +377,7 @@ include 'includes/header.php'; ?>
           <div class="team_style_three_inner">
             <div class="team_style_three-thumb">
               <div class="team_style_three_thumb_inner">
-                <img src="assets/images/zena.png" alt="" />
+                <img src="assets/images/genaboutus.png" alt="" />
               </div>
             </div>
             <div class="team_style_three_content">
@@ -445,91 +436,6 @@ include 'includes/header.php'; ?>
 <!--==================================================-->
 
 <!--==================================================-->
-<!----- Start Lyseum Call Do Action Area ----->
-<!--==================================================-->
-<!--<div
-      class="call_do_action pt-85 pb-130 bg_color"
-      style="background-image: url(assets/images/slider/slider-4.jpg)"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section_title white text_center mb-60 mt-3">
-              <div class="phone_number mb-3">
-                <h5>+880 013 143 206</h5>
-              </div>
-              <div class="section_main_title">
-                <h1>To make requests for the</h1>
-                <h1>further information</h1>
-              </div>
-              <div class="button three mt-40">
-                <a href="#"
-                  >Join With Now<i class="fa fa-long-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-<!--==================================================-->
-<!----- End Lyseum Call Do Action Area ----->
-<!--==================================================-->
-
-<!--==================================================-->
-<!----- Start Lyseum Counter Area ----->
-<!--==================================================-->
-<!--<div class="counter_area">
-      <div class="container">
-        <div class="row cntr_bg_up nagative_margin pt-50 pb-45">
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="single_counter text_center mb-4">
-              <div class="countr_text">
-                <h1><span class="counter">15</span><span>K</span></h1>
-              </div>
-              <div class="counter_desc">
-                <h5>Happy Clients</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="single_counter text_center mb-4">
-              <div class="countr_text">
-                <h1><span class="counter">1280</span><span>+</span></h1>
-              </div>
-              <div class="counter_desc">
-                <h5>Account Number</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="single_counter text_center mb-4">
-              <div class="countr_text">
-                <h1><span class="counter">10</span><span>K</span></h1>
-              </div>
-              <div class="counter_desc">
-                <h5>Finished Projects</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="single_counter text_center mb-4">
-              <div class="countr_text">
-                <h1><span class="counter">992</span><span>+</span></h1>
-              </div>
-              <div class="counter_desc">
-                <h5>Win Awards</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-<!--==================================================-->
-<!----- End Lyseum Counter Area ----->
-<!--==================================================-->
-
-<!--==================================================-->
 <!----- Start Lyseum Testimonial Area ----->
 <!--==================================================-->
 <div id="testimonial-section" class="testimonial-bg pt-80 pb-70">
@@ -576,8 +482,8 @@ include 'includes/header.php'; ?>
       <!--Left Bubble Images-->
       <!--Center Testimonials-->
       <div class="container-quote carousel-on">
-        <!--Testimonial 1-->
-        <div
+       
+        <!-- <div
           class="quote quote-text-3 hide-bottom"
           data-ppquote="li-quote-3">
           <p>
@@ -588,9 +494,9 @@ include 'includes/header.php'; ?>
             <div class="name"> Name </div>
             <div class="job"> Job</div>
           </div>
-        </div>
-        <!--Testimonial 2-->
-        <div class="quote quote-text-4 show" data-ppquote="li-quote-4">
+        </div> -->
+       
+        <!-- <div class="quote quote-text-4 show" data-ppquote="li-quote-4">
           <p>
             'Under Construction'
           </p>
@@ -599,9 +505,9 @@ include 'includes/header.php'; ?>
             <div class="name"> Name </div>
             <div class="job"> Job</div>
           </div>
-        </div>
-        <!--Testimonial 3-->
-        <div
+        </div> -->
+   
+        <!-- <div
           class="quote hide-bottom quote-text-5"
           data-ppquote="li-quote-5">
           <p>
@@ -612,9 +518,9 @@ include 'includes/header.php'; ?>
             <div class="name"> Name </div>
             <div class="job"> Job</div>
           </div>
-        </div>
-        <!--Testimonial 4-->
-        <div
+        </div> -->
+     
+        <!-- <div
           class="quote hide-bottom quote-text-6"
           data-ppquote="li-quote-6">
           <p>
@@ -625,9 +531,9 @@ include 'includes/header.php'; ?>
             <div class="name"> Name </div>
             <div class="job"> Job</div>
           </div>
-        </div>
-        <!--Testimonial 5-->
-        <div
+        </div> -->
+       
+        <!-- <div
           class="quote hide-bottom quote-text-7"
           data-ppquote="li-quote-7">
           <p>
@@ -639,7 +545,7 @@ include 'includes/header.php'; ?>
             <div class="job"> Job</div>
           </div>
         </div>
-        <!--Testimonial 6-->
+      
         <div
           class="quote hide-bottom quote-text-8"
           data-ppquote="li-quote-8">
@@ -652,7 +558,7 @@ include 'includes/header.php'; ?>
             <div class="job"> Job</div>
           </div>
         </div>
-        <!--Testimonial 7-->
+
         <div
           class="quote hide-bottom quote-text-9"
           data-ppquote="li-quote-9">
@@ -665,7 +571,7 @@ include 'includes/header.php'; ?>
             <div class="job"> Job</div>
           </div>
         </div>
-        <!--Testimonial 8-->
+
         <div
           class="quote hide-bottom quote-text-10"
           data-ppquote="li-quote-10">
@@ -678,7 +584,7 @@ include 'includes/header.php'; ?>
             <div class="job"> Job</div>
           </div>
         </div>
-        <!--Testimonial 9-->
+     
         <div
           class="quote hide-bottom quote-text-11"
           data-ppquote="li-quote-11">
@@ -691,7 +597,7 @@ include 'includes/header.php'; ?>
             <div class="job"> Job</div>
           </div>
         </div>
-        <!--Testimonial 10-->
+     
         <div
           class="quote hide-bottom quote-text-13"
           data-ppquote="li-quote-13">
@@ -704,7 +610,7 @@ include 'includes/header.php'; ?>
             <div class="job"> Job</div>
           </div>
         </div>
-        <!--Testimonial 11-->
+
         <div
           class="quote quote-text-1 hide-bottom"
           data-ppquote="li-quote-1">
@@ -717,7 +623,7 @@ include 'includes/header.php'; ?>
             <div class="job"> Job</div>
           </div>
         </div>
-        <!--Testimonial 12-->
+
         <div
           class="quote quote-text-2 hide-bottom"
           data-ppquote="li-quote-2">
@@ -729,7 +635,7 @@ include 'includes/header.php'; ?>
             <div class="name"> Name </div>
             <div class="job"> Job</div>
           </div>
-        </div>
+        </div> -->
       </div>
       <!--Right Bubble Images-->
       <div class="container-pe-quote right">
@@ -759,14 +665,7 @@ include 'includes/header.php'; ?>
 <!----- End Lyseum Testimonial Area ----->
 <!--==================================================-->
 
-<!--==================================================-->
-<!----- Start Lyseum Brand Area ----->
-<!--==================================================-->
-
 </div>
 </div>
-<!--==================================================-->
-<!----- End Lyseum Brand Area ----->
-<!--==================================================-->
 
 <?php include 'includes/footer.php'; ?>
