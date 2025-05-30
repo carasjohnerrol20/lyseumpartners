@@ -7420,10 +7420,10 @@ span.fill.my-class2 {
 .team_style_three_content {
   position: absolute;
   bottom: -21px;
-  left: 0;
-  right: 18px;
+  left: -1px;
+  right: 1px;
   z-index: 1;
-  padding: 15px 10px 35px 50px;
+  padding: 5px 5px 55px 85px;
   transition: 0.5s;
 }
 .team_style_three_content:before {
@@ -7965,11 +7965,11 @@ li.current a {
 .mission-section .accordion a.active {
   border-bottom: 0;
   padding: 25px 20px 15px 20px;
-  color: #0c5adb !important;
+  color: #0C3A5F !important;
 }
 
 .mission-section .accordion li a span:hover {
-  color: #0c5adb;
+  color: #0C3A5F;
   transition: 0.5s;
 }
 
@@ -12242,13 +12242,13 @@ span.chose-icon2 {
 --<	Techno Accordion Area Css -->
 ======================================================*/
 .main-accordion-lt {
-  background: #2d2d2d;
+  background: #7b91a6;
 }
 .acd-items.acd-arrow {
   margin-left: 160px;
 }
 .panel-heading .panel-title a {
-  background: #393939;
+  background: #7b91a6;
   display: block;
   font-weight: 600;
   padding: 10px 15px;
@@ -12262,7 +12262,7 @@ span.chose-icon2 {
   transition: 0.5s;
 }
 .faq .panel-heading .panel-title a:hover {
-  color: #0c5adb;
+  color: #0C3A5F;
 }
 
 .faq .panel-body p {
@@ -14600,13 +14600,13 @@ ul.accordion {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background: #1e54e7 !important;
+  background: #0C3A5F !important;
 }
 .accordion a.active:before {
   display: none;
 }
 .accordion a.active {
-  color: #1e54e7 !important;
+  color: #0C3A5F !important;
 }
 /* faq area style two*/
 

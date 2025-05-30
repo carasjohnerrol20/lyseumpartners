@@ -40,6 +40,7 @@ include 'includes/header.php'; ?>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
         <div class="about_thumb">
           <img src="assets/images/about-2.jpg" alt="" />
+                <img src="assets/images/about-3.jpg" alt="" />
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
@@ -63,7 +64,7 @@ include 'includes/header.php'; ?>
         <div class="singel_about_left mb-30">
           <div class="singel_about_left_inner mb-3">
             <div class="singel-about-content boder pl-4">
-              <p>
+             <!-- <p>
                 Lyseum Partners is a veteran-led firm delivering expert solutions in construction planning,
                 project management, security consulting, and logistical support across the Indo-Pacific, Middle
                 East, and nearby regions. Founded and led by industry veterans with over 50 years of
@@ -86,8 +87,24 @@ include 'includes/header.php'; ?>
                 management have helped position Lyseum as a trusted partner in the U.S. Government
                 contracting space. Their leadership in strategic partnerships, market expansion, and cultural
                 intelligence has driven Lyseum’s successful operations across international territories and
-                federal markets. </p>
-            </div>
+                federal markets. </p>-->
+            <p> Zena Hernandez serves as the Growth & Partnership Director for Lyseum Partners, leading the company’s expansion efforts across the Middle East and surrounding regions. With over 10 years of experience in marketing and leadership, she brings a dynamic approach to building strategic alliances, driving brand growth, and fostering long-term partnerships in complex and evolving markets. </p>
+            <p> Throughout her career, she has worked with international companies across Lebanon, Iraq, and Guam, and has successfully managed marketing and sales teams throughout North America. Her expertise includes launching high-impact campaigns, developing growth strategies, and leading cross-functional teams to achieve ambitious revenue and engagement goals. She also brings experience from the political sector, having served as a deputy campaign manager on a U.S. congressional campaign, where she sharpened her skills in leadership, effective planning, and media strategy.</p>
+            <p> As Growth & Partnership Director, she plays a key role in expanding Lyseum’s footprint, cultivating meaningful relationships with stakeholders, and ensuring the company’s services align with regional demands and global standards.</p>  
+            <p> She holds a deep commitment to collaboration, cultural understanding, and the pursuit of sustainable growth, making her an integral part of Lyseum Partners’ leadership team.</p>
+          
+          <div class="single_about_signesur align-items-center">
+						<div class="single_about_signesur_thumb mr-4">
+							<img src="assets/images/testi/zena.png" alt="" />
+						</div>
+						<div class="single_about_signesur_content pt-3">
+							<h4>Zena Hernandez</h4>
+							<span><b>Growth and Partnership Director</b></span><br>
+              <span>Middle East & Surrounding Area</span>
+						</div>
+					</div>
+          
+          </div>
           </div>
           <!--<div class="singel_about_left_inner pl-4">
                 <div class="button two">
@@ -236,13 +253,16 @@ include 'includes/header.php'; ?>
 <!----- Start Lyseum Accordion Area ----->
 <!--==================================================-->
 <div class="accordion-area about-pages">
-  <div class="container-fluid">
+  <div class="container-fluid d-flex align-items-start">
     <div class="row">
-      <div class="col-lg-6 main-accordion-lt">
-        <!-- Start Accordion -->
+      <!-- Left Column -->
+      <div class="">
         <div class="acd-items acd-arrow pt-30 pb-30 mr-4">
-          <div class="section_title white text_left mb-60 mt-3">
-            <div class="section_sub_title uppercase mb-3">
+          <!-- Title -->
+        <div class="section_title text_left mb-40 mt-3">
+          <div class="section_sub_title uppercase mb-3">
+
+     
               <h6>WHY CHOOSE US</h6>
             </div>
             <div class="section_main_title">
@@ -253,83 +273,58 @@ include 'includes/header.php'; ?>
               <div class="em_bar_bg"></div>
             </div>
           </div>
-          <div class="panel-group symb" id="accordion">
-            <div class="panel panel-default">
-              <div class="panel-heading mb-3">
-                <h4 class="panel-title">
-                  <a
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    href="#ac1"><i class="fa fa-check-circle"></i>
-                    Core Services
-                  </a>
-                </h4>
-              </div>
-              <div id="ac1" class="panel-collapse in">
-                <div class="panel-body pl-4 pr-4">
-                  <p>
-                    - Engineering Design and Inspections
-                    - Engineering Compliance Support
-                    - Project Scheduling and Submittal Revie
-                    - Program/Project Management
-                    - Construction Management
-                    - Cost Estimating and Surveys
-                    - Facility Condition Assessments
-                    - Safety Consulting
-                    - Master Planning
-                    - Logistical Support
-                    - Anti-Terrorism and Force Protection (ATFP) Measures
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading mb-3">
-                <h4 class="panel-title">
-                  <a
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    href="#ac2"><i class="fa fa-check-circle"></i>
-                    Lyseum’s Team
-                  </a>
-                </h4>
-              </div>
-              <div id="ac2" class="panel-collapse collapse">
-                <div class="panel-body pl-4 pr-4">
-                  <p>
+
+          <!-- Accordion Start -->
+        <div class="col-lg-10">
+            <div class="tab_container" data-cue="slideInRight">
+           
+                <ul class="accordion">
+                  <li>
+                    <a><span>01 Core Services </span></a>
+                    <p>
+                  - Engineering Design and Inspections<br>
+                  - Engineering Compliance Support<br>
+                  - Project Scheduling and Submittal Review<br>
+                  - Program/Project Management<br>
+                  - Construction Management <br>
+                  - Cost Estimating and Surveys <br>
+                  - Facility Condition Assessments <br>
+                  - Safety Consulting <br>
+                  - Master Planning <br>
+                  - Logistical Support <br>
+                  - Anti-Terrorism and Force Protection (ATFP) Measures <br>
+           
+                   </p>
+                  </li>
+                  <li>
+                    <a><span>02 Lyseum’s Team </span></a>
+                    <p> 
                     Lyseum’s team—comprising U.S. direct hires, certified professionals, and experienced Philippine-based labor—ensures agile and scalable service delivery tailored to client needs. Their experience spans defense infrastructure, utility systems, base life support, and secure facility management, all executed with a focus on safety, compliance, and quality assurance.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading mb-3">
-                <h4 class="panel-title">
-                  <a
-                    data-toggle="collapse"
-                    data-parent="#accordion"
-                    href="#ac3"><i class="fa fa-check-circle"></i>
-                    Client Focused
-                  </a>
-                </h4>
-              </div>
-              <div id="ac3" class="panel-collapse collapse">
-                <div class="panel-body pl-4 pr-4">
-                  <p>
-                    With a client focused and mission-first mindset alongside a performance-driven culture, Lyseum Partners deliver reliable solutions that meet the rigorous standards of government, military, and international stakeholders.
-                  </p>
-                </div>
-              </div>
+              
+                    </p>
+                  </li>
+                  <li>
+                    <a><span>03 Client Focused </span></a>
+                    <p> 
+                      With a client focused and mission-first mindset alongside a performance-driven culture, Lyseum Partners deliver reliable solutions that meet the rigorous standards of government, military, and international stakeholders.
+                    </p> 
+                  </li>
+                </ul>
+             
             </div>
           </div>
+          <!-- Accordion End -->
         </div>
-        <!-- End Accordion -->
       </div>
+
+      <!-- Right Column (Video) -->
       <div class="col-lg-6 absod">
         <div class="single-panel">
           <div class="single-panel-thumb">
             <div class="single-panel-thumb-inner">
               <img src="assets/images/video1.jpg" alt="" />
+          
+              
             </div>
             <div class="main_video text_center">
               <div class="video-icon">
@@ -337,15 +332,19 @@ include 'includes/header.php'; ?>
                   class="video-vemo-icon venobox vbox-item"
                   data-vbtype="youtube"
                   data-autoplay="true"
-                  href="https://youtu.be/0uCY2BA4TiE"><i class="fa fa-play"></i></a>
+                  href="https://youtu.be/0uCY2BA4TiE">
+                  <i class="fa fa-play"></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </div>
+
 <!--==================================================-->
 <!----- End Lyseum Accordion Area ----->
 <!--==================================================-->
@@ -382,43 +381,57 @@ include 'includes/header.php'; ?>
 
     <!-- Team Members Row - Centered -->
     <div class="row justify-content-center">
-      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
         <div class="team_style_three mb-40">
           <div class="team_style_three_inner">
             <div class="team_style_three-thumb">
               <div class="team_style_three_thumb_inner">
-                <img src="assets/images/team2.jpg" alt="" />
+                <img src="assets/images/zena.png" alt="" />
               </div>
             </div>
             <div class="team_style_three_content">
               <div class="team_style_three_title">
-                <h7><font color="white">Zena Hernandez</font></h7>
+                <h4><font color="white">Zena Hernandez</font></h4> <br>
               </div>
               <div class="team_style_three_sub_title">
-                <span>Growth and Partnership Director</span>
-                <span>Middle East and Surrounding Areas</span>
+                <span><b>Growth and Partnership Director</b> </span></h6> <br>
+                <span>Middle East & Surrounding Areas</span>
+              
               </div>
+             <div class="team_style_three_icon">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
         <div class="team_style_three mb-40">
           <div class="team_style_three_inner">
             <div class="team_style_three-thumb">
               <div class="team_style_three_thumb_inner">
-                <img src="assets/images/team4.jpg" alt="" />
+                <img src="assets/images/genaboutus.png" alt="" />
               </div>
             </div>
             <div class="team_style_three_content">
               <div class="team_style_three_title">
-                <h7><font color="white">Gen Gozalo</font></h7>
+                <h4><font color="white">Gen Gozalo</font></h4> <br>
               </div>
               <div class="team_style_three_sub_title">
-                <span>Growth and Partnership Director</span>
+                <span><b>Growth and Partnership Director</b> </span></h6> <br>
                 <span>Guam & Indo Pacific Region</span>
+              
               </div>
+             <div class="team_style_three_icon">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
             </div>
           </div>
         </div>

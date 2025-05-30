@@ -105,7 +105,7 @@ include 'includes/header.php'; ?>
     <div class="row align-items-center">
 
       <!-- ✅ Text Column -->
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+      <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="section_title text_left mb-40 mt-3">
           <div class="section_sub_title uppercase mb-3">
             <h6>ABOUT LYSEUM PARTNERS</h6>
@@ -116,8 +116,8 @@ include 'includes/header.php'; ?>
           <div class="em_bar">
             <div class="em_bar_bg"></div>
           </div>
-
-          <div class="section_content_text pt-4">
+		<br>
+          <div class="section_content_text">
             <p>Lyseum Partners is a veteran-led firm delivering expert solutions in construction planning,
               project management, security consulting, and logistical support across the Indo-Pacific, Middle
               East, and nearby regions. Founded and led by industry veterans with over 50 years of
@@ -134,33 +134,24 @@ include 'includes/header.php'; ?>
               Gen Gozalo, whose combined 20+ years in business development, marketing, and stakeholder
               management have helped position Lyseum as a trusted partner in the U.S. Government
               contracting space.</p>
-          </div>
 
-          <div class="pt-3">
+			<div class="pt-3">
             <a href="about.php" class="theme_btn">Read More <i class="fa fa-long-arrow-right"></i></a>
+          	</div>
           </div>
-        </div>
-
-        <div class="single_about_signesur d-flex align-items-center mt-4">
-          <div class="single_about_signesur_thumb mr-4">
-            <img src="assets/images/testi/gen3.png" alt="Gen Gozalo" />
-          </div>
-          <div class="single_about_signesur_content pt-3">
-            <h4>Gen Gozalo</h4>
-            <span>Growth and Partnership Director</span>
-          </div>
-        </div>
-      </div>
+         </div>
+      </div> 
 
       <!-- ✅ Image Column -->
+	
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
         <div class="single_about_thumb mb-3 text-center">
           <div class="single_about_thumb_inner">
-            <img src="assets/images/about-4.png" alt="About Lyseum" />
+            <br><img src="assets/images/about-4.png" alt="About Lyseum" />
           </div>
           <div class="border_ift"></div>
         </div>
-      </div>
+      </div> 
 
     </div>
   </div>
