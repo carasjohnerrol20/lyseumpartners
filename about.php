@@ -18,7 +18,6 @@ include 'includes/header.php'; ?>
             <ul>
               <li>
                 <a href="index.php">Home</a>
-
                 <span>About Us</span>
               </li>
             </ul>
@@ -46,7 +45,7 @@ include 'includes/header.php'; ?>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
         <div class="section_title text_left mb-40 mt-3">
           <div class="section_sub_title uppercase mb-3">
-            <h6>20 YEARS OF EXPERIENCE</h6>
+            <h6>MORE THAN 50 YEARS OF COMBINED EXPERIENCE</h6>
           </div>
           <div class="section_main_title">
             <h1>Mission-Driven Solutions, Global Expertise.</h1>
@@ -88,8 +87,6 @@ include 'includes/header.php'; ?>
                 contracting space. Their leadership in strategic partnerships, market expansion, and cultural
                 intelligence has driven Lyseum’s successful operations across international territories and
                 federal markets. </p>
-
-
             </div>
           </div>
           <!--<div class="singel_about_left_inner pl-4">
@@ -366,8 +363,8 @@ include 'includes/header.php'; ?>
             <h6>TEAM MEMBER</h6>
           </div>
           <div class="section_main_title">
-            <h1>Our Awesome</h1>
-            <h1>Team Member</h1>
+            <h1>Our Growth and</h1>
+            <h1>Relationship Leaders</h1>
           </div>
           <div class="em_bar">
             <div class="em_bar_bg"></div>
@@ -398,7 +395,8 @@ include 'includes/header.php'; ?>
                 <h7><font color="white">Zena Hernandez</font></h7>
               </div>
               <div class="team_style_three_sub_title">
-                <!-- <span>CEO</span> -->
+                <span>Growth and Partnership Director</span>
+                <span>Middle East and Surrounding Areas</span>
               </div>
             </div>
           </div>
@@ -418,7 +416,8 @@ include 'includes/header.php'; ?>
                 <h7><font color="white">Gen Gozalo</font></h7>
               </div>
               <div class="team_style_three_sub_title">
-                <!-- <span>MANAGER</span> -->
+                <span>Growth and Partnership Director</span>
+                <span>Guam & Indo Pacific Region</span>
               </div>
             </div>
           </div>

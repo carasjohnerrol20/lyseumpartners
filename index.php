@@ -2,7 +2,6 @@
 <?php
 $page_title = "Home";
 include 'includes/header.php'; ?>
-
 <!--==================================================-->
 <!----- Start Lyseum Slider Area ----->
 <!--==================================================-->
@@ -99,79 +98,74 @@ include 'includes/header.php'; ?>
 <!--==================================================-->
 
 <!--==================================================-->
-<!----- Start Lyseum Brand One Area ----->
-<!--==================================================-->
-
-
-<!--==================================================-->
-<!----- End Lyseum Brand One Area ----->
-<!--==================================================-->
-
-<!--==================================================-->
 <!----- Start Lyseum About Area ----->
 <!--==================================================-->
 <div id="about-us" class="about_area pt-100 pb-100">
-	<div class="container">
-		<div class="row align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
 
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-				<div class="section_title text_left mb-40 mt-3">
-					<div class="section_sub_title uppercase mb-3">
-						<h6>ABOUT LYSEUM PARTNERS</h6>
-					</div>
-					<div class="section_main_title">
-						<h1>Most Trusted Business Partner</h1>
+      <!-- ✅ Text Column -->
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+        <div class="section_title text_left mb-40 mt-3">
+          <div class="section_sub_title uppercase mb-3">
+            <h6>ABOUT LYSEUM PARTNERS</h6>
+          </div>
+          <div class="section_main_title">
+            <h1>Most Trusted Business Partner</h1>
+          </div>
+          <div class="em_bar">
+            <div class="em_bar_bg"></div>
+          </div>
 
-					</div>
-					<div class="em_bar">
-						<div class="em_bar_bg"></div>
-					</div>
-					<div class="section_content_text pt-4">
-						<p>Lyseum Partners is a veteran-led firm delivering expert solutions in construction planning,
-							project management, security consulting, and logistical support across the Indo-Pacific, Middle
-							East, and nearby regions. Founded and led by industry veterans with over 50 years of
-							combined experience, Lyseum Partners brings unique expertise to the management and
-							execution of mission-critical infrastructure and government projects in complex, high-stakes
-							environments. </p>
-						<p>At the helm of Lyseum is a leadership team with extensive operational insight shaped by military
-							service and decades of private-sector experience. With over 30 years of combined expertise in
-							global project oversight and program management, they have successfully led high-impact
-							initiatives involving complex coordination, strict compliance, and mission-critical security. Their
-							portfolio includes the management of multi-million-dollar government contracts across regions
-							such as the Middle East, Guam, and the Marshall Islands, encompassing infrastructure
-							modernization, post-disaster recovery, and strategic facility development.</p>
-						<p>Supporting the company’s growth and client engagement are directors Zena Hernandez and
-							Gen Gozalo, whose combined 20+ years in business development, marketing, and stakeholder
-							management have helped position Lyseum as a trusted partner in the U.S. Government
-							contracting space. Their leadership in strategic partnerships, market expansion, and cultural
-							intelligence has driven Lyseum’s successful operations across international territories and
-							federal markets.</p>
-					</div>
-					<div>
-						<a href="about.php">Read More <i class="fa fa-long-arrow-right"></i></a>
-					</div>
-				</div>
-				<div class="single_about_signesur align-items-center">
-					<div class="single_about_signesur_thumb mr-4">
-						<img src="assets/images/testi/gen3.png" alt="" />
-					</div>
-					<div class="single_about_signesur_content pt-3">
-						<h4>Gen Gozalo</h4>
-						<span>Growth and Partnership Director</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-				<div class="single_about_thumb mb-3">
-					<div class="single_about_thumb_inner">
-						<img src="assets/images/about-4.png" alt="" />
-					</div>
-					<div class="border_ift"></div>
-				</div>
-			</div>
-		</div>
-	</div>
+          <div class="section_content_text pt-4">
+            <p>Lyseum Partners is a veteran-led firm delivering expert solutions in construction planning,
+              project management, security consulting, and logistical support across the Indo-Pacific, Middle
+              East, and nearby regions. Founded and led by industry veterans with over 50 years of
+              combined experience, Lyseum Partners brings unique expertise to the management and
+              execution of mission-critical infrastructure and government projects in complex, high-stakes
+              environments.</p>
+
+            <p>At the helm of Lyseum is a leadership team with extensive operational insight shaped by military
+              service and decades of private-sector experience. With over 30 years of combined expertise in
+              global project oversight and program management, they have successfully led high-impact
+              initiatives involving complex coordination, strict compliance, and mission-critical security.</p>
+
+            <p>Supporting the company’s growth and client engagement are directors Zena Hernandez and
+              Gen Gozalo, whose combined 20+ years in business development, marketing, and stakeholder
+              management have helped position Lyseum as a trusted partner in the U.S. Government
+              contracting space.</p>
+          </div>
+
+          <div class="pt-3">
+            <a href="about.php" class="theme_btn">Read More <i class="fa fa-long-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="single_about_signesur d-flex align-items-center mt-4">
+          <div class="single_about_signesur_thumb mr-4">
+            <img src="assets/images/testi/gen3.png" alt="Gen Gozalo" />
+          </div>
+          <div class="single_about_signesur_content pt-3">
+            <h4>Gen Gozalo</h4>
+            <span>Growth and Partnership Director</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ✅ Image Column -->
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+        <div class="single_about_thumb mb-3 text-center">
+          <div class="single_about_thumb_inner">
+            <img src="assets/images/about-4.png" alt="About Lyseum" />
+          </div>
+          <div class="border_ift"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
+
 <!--==================================================-->
 <!----- End Lyseum About Area ----->
 <!--==================================================-->
@@ -232,7 +226,6 @@ include 'includes/header.php'; ?>
 <!--==================================================-->
 <!----- End Lyseum Services Area ----->
 <!--==================================================-->
-
 
 <!--==================================================-->
 <!----- Start Lyseum Service Seven Area ----->
@@ -378,8 +371,6 @@ include 'includes/header.php'; ?>
 <!--==================================================-->
 <!----- End Lyseum Service Seven Area ----->
 <!--==================================================-->
-
-
 
 <!--==================================================-->
 <!----- Start Lyseum Call Do Action Area ----->
@@ -542,18 +533,14 @@ include 'includes/header.php'; ?>
 		<div class="row">
 			<div class="col-lg-4 col-md-6 col-sm-12">
 				<div class="single_blog mb-4">
-
 					<p> Under Construction </p>
 				</div>
 			</div>
-
-
 		</div>
 	</div>
 </div>
 <!--=================================================-->
 <!----- End Lyseum Blog Area ----->
 <!--==================================================-->
-
 
 <?php include 'includes/footer.php'; ?>
