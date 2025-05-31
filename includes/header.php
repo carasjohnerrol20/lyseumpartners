@@ -93,7 +93,7 @@ $base_path = '/';
 							
 							</ul> -->
 						</li>
-						<li><a href="#core-services">Services</a>
+						<li><a href="index.php#core-services">Services</a>
 							<ul>
 								<li><a href="#project-management-2">Program & Project Management</a></li>
 								<li><a href="#construction-management-2">Construction & Infrastructure Management</a></li>
