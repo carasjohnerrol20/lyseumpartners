@@ -1,9 +1,9 @@
 <?php
 // LOCAL
-$base_path = '/lyseumpartners/';
+// $base_path = '/lyseumpartners/';
 
 // PRODUCTION
-//$base_path = '/';
+$base_path = '/';
 ?>
 
 <!DOCTYPE HTML>

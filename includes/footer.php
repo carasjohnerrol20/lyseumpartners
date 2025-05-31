@@ -167,7 +167,7 @@
 var _iub = _iub || [];
 _iub.csConfiguration = {"siteId":4052197,"cookiePolicyId":21858046,"lang":"en","storage":{"useSiteId":true}};
 </script>
-<script type="text/javascript" src="https://cs.iubenda.com/autoblocking/4052197.js"></script>
+<!-- <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/4052197.js"></script> -->
 <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
 <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 

@@ -375,7 +375,7 @@ include 'includes/header.php'; ?>
           <div class="team_style_three_inner">
             <div class="team_style_three-thumb">
               <div class="team_style_three_thumb_inner">
-                <img src="assets/images/genaboutus.png" alt="" />
+                <img src="assets/images/zen.jpg" alt="" />
               </div>
             </div>
             <div class="team_style_three_content">
