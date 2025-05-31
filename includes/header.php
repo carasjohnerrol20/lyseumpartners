@@ -86,7 +86,7 @@ $base_path = '/';
 						<li><a href="index.php">Home</a>
 
 						</li>
-						<li><a href="index.php#about-us">About Us</a>
+						<li><a href="about.php">About Us</a>
 							<!--<ul>
 								<li><a href="about.html">Core Services </a></li>
 							
