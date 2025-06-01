@@ -762,29 +762,48 @@ include 'includes/header.php'; ?>
 
 </style>
 <script>
-  // Gen toggle
-  document.getElementById('genReadMore').onclick = () => {
-    document.getElementById('genMore').style.display = 'block';
-    document.getElementById('genReadMore').style.display = 'none';
-    document.getElementById('genClose').style.display = 'inline-block';
-  };
-  document.getElementById('genClose').onclick = () => {
-    document.getElementById('genMore').style.display = 'none';
-    document.getElementById('genReadMore').style.display = 'inline-block';
-    document.getElementById('genClose').style.display = 'none';
-  };
+  const genReadMore = document.getElementById('genReadMore');
+  const genClose = document.getElementById('genClose');
+  const genContent = document.getElementById('genMore');
 
-  // Zena toggle
-  document.getElementById('zenaReadMoreBtn').onclick = () => {
-    document.getElementById('zenaContent').style.display = 'block';
-    document.getElementById('zenaReadMoreBtn').style.display = 'none';
-    document.getElementById('zenaCloseBtn').style.display = 'inline-block';
-  };
-  document.getElementById('zenaCloseBtn').onclick = () => {
-    document.getElementById('zenaContent').style.display = 'none';
-    document.getElementById('zenaReadMoreBtn').style.display = 'inline-block';
-    document.getElementById('zenaCloseBtn').style.display = 'none';
-  };
+  const zenaReadMore = document.getElementById('zenaReadMoreBtn');
+  const zenaClose = document.getElementById('zenaCloseBtn');
+  const zenaContent = document.getElementById('zenaContent');
+
+  genReadMore.addEventListener('click', () => {
+    // Show Gen, hide Zena
+    genContent.style.display = 'block';
+    genReadMore.style.display = 'none';
+    genClose.style.display = 'inline-block';
+
+    zenaContent.style.display = 'none';
+    zenaReadMore.style.display = 'inline-block';
+    zenaClose.style.display = 'none';
+  });
+
+  genClose.addEventListener('click', () => {
+    genContent.style.display = 'none';
+    genReadMore.style.display = 'inline-block';
+    genClose.style.display = 'none';
+  });
+
+  zenaReadMore.addEventListener('click', () => {
+    // Show Zena, hide Gen
+    zenaContent.style.display = 'block';
+    zenaReadMore.style.display = 'none';
+    zenaClose.style.display = 'inline-block';
+
+    genContent.style.display = 'none';
+    genReadMore.style.display = 'inline-block';
+    genClose.style.display = 'none';
+  });
+
+  zenaClose.addEventListener('click', () => {
+    zenaContent.style.display = 'none';
+    zenaReadMore.style.display = 'inline-block';
+    zenaClose.style.display = 'none';
+  });
 </script>
+
 
 <?php include 'includes/footer.php'; ?>
