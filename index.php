@@ -28,11 +28,13 @@ include 'includes/header.php'; ?>
 									<!--<a class="active" href="#">Lyseum Services <i class="fa fa-chevron-right"></i></a> -->
 								</div>
 							</div>
-								<div class="slider-video">
-									<div class="video-icon">
-										<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/0uCY2BA4TiE"><i class="fa fa-play"></i></a>
-									</div>
+							<div class="slider-video">
+								<div class="video-icon">
+									<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/0uCY2BA4TiE"><i class="fa fa-play"></i></a>
 								</div>
+							</div>
+
+
 						</div>
 					</div>
 				</div>
@@ -100,64 +102,64 @@ include 'includes/header.php'; ?>
 <!----- Start Lyseum About Area ----->
 <!--==================================================-->
 <div id="about-us" class="about_area pt-100 pb-100">
-  <div class="container">
-    <div class="row align-items-center">
+	<div class="container">
+		<div class="row align-items-center">
 
-      <!-- ✅ Text Column -->
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <div class="section_title text_left mb-40 mt-3">
-          <div class="section_sub_title uppercase mb-3">
-            <h6>ABOUT LYSEUM PARTNERS</h6>
-          </div>
-          <div class="section_main_title">
-            <h1>Most Trusted Business Partner</h1>
-          </div>
-          <div class="em_bar">
-            <div class="em_bar_bg"></div>
-          </div>
-		<br>
-          <div class="section_content_text">
-            <p>Lyseum Partners is a veteran-led firm delivering expert solutions in construction planning,
-              project management, security consulting, and logistical support across the Indo-Pacific, Middle
-              East, and nearby regions. Founded and led by industry veterans with over 50 years of
-              combined experience, Lyseum Partners brings unique expertise to the management and
-              execution of mission-critical infrastructure and government projects in complex, high-stakes
-              environments.</p>
+			<!-- ✅ Text Column -->
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<div class="section_title text_left mb-40 mt-3">
+					<div class="section_sub_title uppercase mb-3">
+						<h6>ABOUT LYSEUM PARTNERS</h6>
+					</div>
+					<div class="section_main_title">
+						<h1>Most Trusted Business Partner</h1>
+					</div>
+					<div class="em_bar">
+						<div class="em_bar_bg"></div>
+					</div>
+					<br>
+					<div class="section_content_text">
+						<p>Lyseum Partners is a veteran-led firm delivering expert solutions in construction planning,
+							project management, security consulting, and logistical support across the Indo-Pacific, Middle
+							East, and nearby regions. Founded and led by industry veterans with over 50 years of
+							combined experience, Lyseum Partners brings unique expertise to the management and
+							execution of mission-critical infrastructure and government projects in complex, high-stakes
+							environments.</p>
 
-            <p>At the helm of Lyseum is a leadership team with extensive operational insight shaped by military
-              service and decades of private-sector experience. With over 30 years of combined expertise in
-              global project oversight and program management, they have successfully led high-impact
-              initiatives involving complex coordination, strict compliance, and mission-critical security.</p>
+						<p>At the helm of Lyseum is a leadership team with extensive operational insight shaped by military
+							service and decades of private-sector experience. With over 30 years of combined expertise in
+							global project oversight and program management, they have successfully led high-impact
+							initiatives involving complex coordination, strict compliance, and mission-critical security.</p>
 
-            <p>Supporting the company’s growth and client engagement are directors Zena Hernandez and
-              Gen Gozalo, whose combined 20+ years in business development, marketing, and stakeholder
-              management have helped position Lyseum as a trusted partner in the U.S. Government
-              contracting space.</p>
+						<p>Supporting the company’s growth and client engagement are directors Zena Hernandez and
+							Gen Gozalo, whose combined 20+ years in business development, marketing, and stakeholder
+							management have helped position Lyseum as a trusted partner in the U.S. Government
+							contracting space.</p>
 
-			<div class="pt-3" style="position: relative; z-index: 2;">
-			<a href="about.php" class="theme_btn d-inline-flex align-items-center gap-2 px-4 py-2 fw-semibold"
-				style="background-color: #003B64; color: #fff; border-radius: 8px; transition: all 0.3s ease;">
-				Read More &nbsp;
-				<i class="fa fa-long-arrow-right"></i>
-			</a>
+						<div class="pt-3" style="position: relative; z-index: 2;">
+							<a href="about.php" class="theme_btn d-inline-flex align-items-center gap-2 px-4 py-2 fw-semibold"
+								style="background-color: #003B64; color: #fff; border-radius: 8px; transition: all 0.3s ease;">
+								Read More &nbsp;
+								<i class="fa fa-long-arrow-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
-          </div>
-         </div>
-      </div> 
 
-      <!-- ✅ Image Column -->
-	
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-        <div class="single_about_thumb mb-3 text-center">
-          <div class="single_about_thumb_inner">
-            <br><img src="assets/images/about-4.png" alt="About Lyseum" />
-          </div>
-          <div class="border_ift"></div>
-        </div>
-      </div> 
+			<!-- ✅ Image Column -->
 
-    </div>
-  </div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+				<div class="single_about_thumb mb-3 text-center">
+					<div class="single_about_thumb_inner">
+						<br><img src="assets/images/about-4.png" alt="About Lyseum" />
+					</div>
+					<div class="border_ift"></div>
+				</div>
+			</div>
+
+		</div>
+	</div>
 </div>
 
 <!--==================================================-->
@@ -198,21 +200,19 @@ include 'includes/header.php'; ?>
 
 					<p>
 						<b>1. U.S. Department of Defense (DoD) and military engineering commands <br>
-							2. U.S. Government agencies such as USAID, FEMA, and DHS <br>
-							3. Defense contractors and engineering primes (AECOM, KBR, Planate, and more) <br>
-							4. Allied foreign ministries and international development organizations </b>
+							2. U.S. Government agencies such as USAID, FEMA, Department of State (DOS), Department of Veteran Affairs (VA) and Department of Homeland Security (DHS) <br>
+							3. Defense contractors and engineering primes <br>
+							4. Allied foreign ministries and international development organizations
+						</b>
 
 					</p>
 					<p>We are proud to bring client focused, mission-focused discipline, international experience, and
 						scalable support capabilities to every project, ensuring our clients meet timelines, quality
 						benchmarks, and operational goals.</p>
 
-
 				</div>
 			</div>
 		</div>
-
-
 	</div>
 </div>
 </div>
@@ -226,125 +226,125 @@ include 'includes/header.php'; ?>
 <!--==================================================-->
 
 <div id="core-services" class="service_area pt-70 pb-70">
-  <div class="container">
-    <div id="core-services" class="row">
-      <div class="col-lg-12">
-        <div class="section_title text_center mb-55">
-          <div class="section_sub_title uppercase mb-3">
-            <h6>Core Services</h6>
-          </div>
-          <div class="section_main_title">
-            <h1>Trusted Partner for </h1>
-            <h1>Mission-Driven Projects <span>Worldwide</span></h1>
-          </div>
-          <div class="em_bar">
-            <div class="em_bar_bg"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <!-- Card 1 -->
-      <div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 30px;">
-        <div class="service_style_five pt-40 pb-40 pl-25 pr-3" style="height: 100%; min-height: 500px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div class="service_style_five_icon mb-30">
-            <div class="icon">
-              <i class="flaticon-business-and-finance"></i>
-            </div>
-          </div>
-          <div class="service_style_five_title mb-2">
-            <h4>Program & Project Management</h4>
-          </div>
-          <div class="service_style_five_text">
-            <p>Lyseum Partners delivers end-to-end program and project management services designed to support the unique demands of government initiatives. With a team experienced in leading multi-million-dollar, multi-stakeholder projects, Lyseum ensures mission alignment, accountability, and on-time performance from planning through execution.</p>
-          </div>
-          <div class="service_style_five_button" style="margin-top: auto;">
-            <a href="service.php">Read More <i class="fa fa-long-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
+	<div class="container">
+		<div id="core-services" class="row">
+			<div class="col-lg-12">
+				<div class="section_title text_center mb-55">
+					<div class="section_sub_title uppercase mb-3">
+						<h6>Core Services</h6>
+					</div>
+					<div class="section_main_title">
+						<h1>Trusted Partner for </h1>
+						<h1>Mission-Driven Projects <span>Worldwide</span></h1>
+					</div>
+					<div class="em_bar">
+						<div class="em_bar_bg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<!-- Card 1 -->
+			<div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 30px;">
+				<div class="service_style_five pt-40 pb-40 pl-25 pr-3" style="height: 100%; min-height: 500px; display: flex; flex-direction: column; justify-content: space-between;">
+					<div class="service_style_five_icon mb-30">
+						<div class="icon">
+							<i class="flaticon-business-and-finance"></i>
+						</div>
+					</div>
+					<div class="service_style_five_title mb-2">
+						<h4>Program & Project Management</h4>
+					</div>
+					<div class="service_style_five_text">
+						<p>Lyseum Partners delivers end-to-end program and project management services designed to support the unique demands of government initiatives. With a team experienced in leading multi-million-dollar, multi-stakeholder projects, Lyseum ensures mission alignment, accountability, and on-time performance from planning through execution.</p>
+					</div>
+					<div class="service_style_five_button" style="margin-top: auto;">
+						<a href="service.php">Read More <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
 
-      <!-- Card 2 -->
-      <div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 30px;">
-        <div class="service_style_five pt-40 pb-40 pl-25 pr-3" style="height: 100%; min-height: 500px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div class="service_style_five_icon mb-30">
-            <div class="icon">
-              <i class="flaticon-intelligent"></i>
-            </div>
-          </div>
-          <div class="service_style_five_title mb-2">
-            <h4>Construction & Infrastructure Management</h4>
-          </div>
-          <div class="service_style_five_text">
-            <p>Our construction management services are built on military-grade discipline and commercial excellence. Lyseum Partners provides oversight that ensures quality, compliance, and safety in the delivery of infrastructure projects in complex, secure, and remote environments.</p>
-          </div>
-          <div class="service_style_five_button" style="margin-top: auto;">
-            <a href="service.php">Read More <i class="fa fa-long-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
+			<!-- Card 2 -->
+			<div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 30px;">
+				<div class="service_style_five pt-40 pb-40 pl-25 pr-3" style="height: 100%; min-height: 500px; display: flex; flex-direction: column; justify-content: space-between;">
+					<div class="service_style_five_icon mb-30">
+						<div class="icon">
+							<i class="flaticon-intelligent"></i>
+						</div>
+					</div>
+					<div class="service_style_five_title mb-2">
+						<h4>Construction & Infrastructure Management</h4>
+					</div>
+					<div class="service_style_five_text">
+						<p>Our construction management services are built on military-grade discipline and commercial excellence. Lyseum Partners provides oversight that ensures quality, compliance, and safety in the delivery of infrastructure projects in complex, secure, and remote environments.</p>
+					</div>
+					<div class="service_style_five_button" style="margin-top: auto;">
+						<a href="service.php">Read More <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
 
-      <!-- Card 3 -->
-      <div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 30px;">
-        <div class="service_style_five pt-40 pb-40 pl-25 pr-3" style="height: 100%; min-height: 500px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div class="service_style_five_icon mb-30">
-            <div class="icon">
-              <i class="flaticon-process"></i>
-            </div>
-          </div>
-          <div class="service_style_five_title mb-2">
-            <h4>Engineering & Technical Services</h4>
-          </div>
-          <div class="service_style_five_text">
-            <p>Our engineering design and inspection services support the U.S. Government’s need for precision and reliability in infrastructure projects. From concept to compliance, our team ensures every design meets regulatory, safety, and performance standards.</p>
-          </div>
-          <div class="service_style_five_button" style="margin-top: auto;">
-            <a href="service.php">Read More <i class="fa fa-long-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
+			<!-- Card 3 -->
+			<div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 30px;">
+				<div class="service_style_five pt-40 pb-40 pl-25 pr-3" style="height: 100%; min-height: 500px; display: flex; flex-direction: column; justify-content: space-between;">
+					<div class="service_style_five_icon mb-30">
+						<div class="icon">
+							<i class="flaticon-process"></i>
+						</div>
+					</div>
+					<div class="service_style_five_title mb-2">
+						<h4>Engineering & Technical Services</h4>
+					</div>
+					<div class="service_style_five_text">
+						<p>Our engineering design and inspection services support the U.S. Government’s need for precision and reliability in infrastructure projects. From concept to compliance, our team ensures every design meets regulatory, safety, and performance standards.</p>
+					</div>
+					<div class="service_style_five_button" style="margin-top: auto;">
+						<a href="service.php">Read More <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
 
-      <!-- Card 4 -->
-      <div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 30px;">
-        <div class="service_style_five pt-40 pb-40 pl-25 pr-3" style="height: 100%; min-height: 500px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div class="service_style_five_icon mb-30">
-            <div class="icon">
-              <i class="flaticon-system"></i>
-            </div>
-          </div>
-          <div class="service_style_five_title mb-2">
-            <h4>Scheduling & Quality Control</h4>
-          </div>
-          <div class="service_style_five_text">
-            <p>Lyseum excels in creating and managing project schedules that align with government protocols and operational timelines. Our submittal review process ensures that all documentation meets stringent government standards and supports streamlined project delivery.</p>
-          </div>
-          <div class="service_style_five_button" style="margin-top: auto;">
-            <a href="service.php">Read More <i class="fa fa-long-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
+			<!-- Card 4 -->
+			<div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 30px;">
+				<div class="service_style_five pt-40 pb-40 pl-25 pr-3" style="height: 100%; min-height: 500px; display: flex; flex-direction: column; justify-content: space-between;">
+					<div class="service_style_five_icon mb-30">
+						<div class="icon">
+							<i class="flaticon-system"></i>
+						</div>
+					</div>
+					<div class="service_style_five_title mb-2">
+						<h4>Scheduling & Quality Control</h4>
+					</div>
+					<div class="service_style_five_text">
+						<p>Lyseum excels in creating and managing project schedules that align with government protocols and operational timelines. Our submittal review process ensures that all documentation meets stringent government standards and supports streamlined project delivery.</p>
+					</div>
+					<div class="service_style_five_button" style="margin-top: auto;">
+						<a href="service.php">Read More <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
 
-      <!-- Card 5 -->
-      <div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 30px;">
-        <div class="service_style_five pt-40 pb-40 pl-25 pr-3" style="height: 100%; min-height: 500px; display: flex; flex-direction: column; justify-content: space-between;">
-          <div class="service_style_five_icon mb-30">
-            <div class="icon">
-              <i class="flaticon-developer"></i>
-            </div>
-          </div>
-          <div class="service_style_five_title mb-2">
-            <h4>Safety & Security Consulting</h4>
-          </div>
-          <div class="service_style_five_text">
-            <p>We provide safety consulting services that uphold the highest standards of occupational health and risk mitigation, supporting military and government operations in environments that demand zero tolerance for error.</p>
-          </div>
-          <div class="service_style_five_button" style="margin-top: auto;">
-            <a href="service.php">Read More <i class="fa fa-long-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+			<!-- Card 5 -->
+			<div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 30px;">
+				<div class="service_style_five pt-40 pb-40 pl-25 pr-3" style="height: 100%; min-height: 500px; display: flex; flex-direction: column; justify-content: space-between;">
+					<div class="service_style_five_icon mb-30">
+						<div class="icon">
+							<i class="flaticon-developer"></i>
+						</div>
+					</div>
+					<div class="service_style_five_title mb-2">
+						<h4>Safety & Security Consulting</h4>
+					</div>
+					<div class="service_style_five_text">
+						<p>We provide safety consulting services that uphold the highest standards of occupational health and risk mitigation, supporting military and government operations in environments that demand zero tolerance for error.</p>
+					</div>
+					<div class="service_style_five_button" style="margin-top: auto;">
+						<a href="service.php">Read More <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <!--==================================================-->
@@ -459,13 +459,13 @@ include 'includes/header.php'; ?>
 								<div class="form_box mb-30">
 									<textarea name="message" id="message" cols="30" rows="10" placeholder="Write a Message"></textarea>
 								</div>
-						<div class="quote_btn d-flex flex-column align-items-start gap-3 mt-4">
-							<!-- Submit Button -->
-							<button class="btn btn-primary mt-2 px-4 py-2" type="submit">
-								<i class="fa fa-paper-plane mr-2"></i> Submit
-							</button>
-						</div>
-						<br>
+								<div class="quote_btn d-flex flex-column align-items-start gap-3 mt-4">
+									<!-- Submit Button -->
+									<button class="btn btn-primary mt-2 px-4 py-2" type="submit">
+										<i class="fa fa-paper-plane mr-2"></i> Submit
+									</button>
+								</div>
+								<br>
 							</div>
 						</div>
 					</form>

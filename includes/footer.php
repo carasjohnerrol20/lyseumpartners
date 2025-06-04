@@ -45,6 +45,16 @@
               </div>
             </div>
           </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div id="em-recent-post-widget">
+            <div class="single-widget-item">
+              <h4 class="widget-title pb-3">Company Address</h4>       
+              <p class="text-white"><span>Guam for Lyseum: Suite A-9, 414 West Soledad Avenue, Hagatna, Guam 96910</span></p>
+            </div>
+          </div>  
+        </div>
+
           <div class="col-lg-3 col-md-6 col-sm-12">
             <div class="widget widgets-company-info">
               <h3 class="widget-title pb-4">Email Address</h3>
@@ -54,15 +64,6 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-          <div id="em-recent-post-widget">
-            <div class="single-widget-item">
-              <h4 class="widget-title pb-3">Company Address</h4>       
-              <p><span>Guam for Lyseum: Suite A-9, 414 West Soledad Avenue, Hagatna, Guam 96910</span></p>
-            </div>
-              
-          </div>  
-        </div>
         
         </div>
         <div class="row footer-bottom mt-70 pt-3 pb-1">
