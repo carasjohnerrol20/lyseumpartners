@@ -174,7 +174,7 @@ include 'includes/header.php'; ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="section_title text_center white mb-55">
+				<div class="section_title text_left white mb-55">
 					<div class="section_sub_title uppercase mb-3">
 						<h6>WHY CHOOSE US</h6>
 					</div>
