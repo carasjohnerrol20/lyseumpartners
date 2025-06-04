@@ -54,11 +54,11 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12">
           <div id="em-recent-post-widget">
             <div class="single-widget-item">
               <h4 class="widget-title pb-3">Company Address</h4>       
-              
+              <p><span>Guam for Lyseum: Suite A-9, 414 West Soledad Avenue, Hagatna, Guam 96910</span></p>
             </div>
               
           </div>  
