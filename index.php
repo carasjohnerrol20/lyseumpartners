@@ -183,8 +183,9 @@ include 'includes/header.php'; ?>
 						<h1>Trusted Results.</h1>
 					</div>
 					<div class="em_bar">
-						<div class="em_bar_bg"></div>
+						<div class="em_bar_bg"> </div>
 					</div>
+					<br>
 					<p> With over five decades of combined leadership experience and a proven track record supporting
 						U.S. Government and military infrastructure projects across the Indo-Pacific, Middle East, and
 						beyond, Lyseum Partners is strategically positioned to serve as a reliable subcontractor to prime
